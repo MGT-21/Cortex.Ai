@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --theme-color:#cb5659 ;
+    --theme-color-hover:#a5363a ;
+    --backgoun-color: #222426; 
+}
+
+
+body{
+    height: 100vh;
+    background-color: var(--backgoun-color);
+}
+
+.header_links{
+    display: flex;
+    gap: 20px;
+}
+
+.header_logo, section h1{
+    font-family: roboto;
+}
+
+
+.section_custom_link{
+    text-decoration: none;
+    color: var(--theme-color) ;
+}
+
+footer{
+    background-color: white;
+}
+
+footer ul{
+    list-style: none;
+    
+}
+
+.btn-custom{
+    background-color: var(--theme-color);
+    border-radius: 2px;
+}
+
+.btn-custom:hover{
+    background-color: var(--theme-color-hover);
+}
+
+
+
+#cards_container{
+    display: flex;
+    gap: 2rem;
+    
+}
